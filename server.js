@@ -32,7 +32,7 @@ app.get('/saludo', (req, res) => {
 
     let message = '';
 
-    for (let index = 0; index < 1000; index++) {
+    for (let index = 0; index < 1; index++) {
         message += saludo + ' ';
     }
 
@@ -105,7 +105,7 @@ app.get('/pino', (req, res) => {
 
     
 
-    res.send({response: 'hola coders'});
+    res.send({response: 'hola mundo'});
 })
 
 app.listen(PORT, err => {
